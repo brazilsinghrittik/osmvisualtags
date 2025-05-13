@@ -1,0 +1,5 @@
+siteleaf:
+  title: "OSMVisualTags"
+  description: "A visual tagging guide for OpenStreetMap mappers"
+  timezone: Asia/Dhaka
+  permalink: pretty
