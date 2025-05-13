@@ -1,16 +1,34 @@
 body {
   font-family: Arial, sans-serif;
-  max-width: 800px;
+  background-color: #f8f9fa;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 30px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 400px;
+}
+
+#osm-map {
+  margin-top: 30px;
+  border: 1px solid #ddd;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+}
+
+.container {
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
 }
-
-h1 {
-  color: #2c3e50;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
